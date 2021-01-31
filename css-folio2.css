@@ -1,0 +1,154 @@
+ul {
+  border: 1px solid black;
+  list-style-type: none;
+  margin: 0px 25% 0px 25%;
+  padding: 0;
+  justify-content: center;
+  overflow: hidden;
+  background-color: black;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size:40px;
+  cursor: pointer;
+}
+
+a:hover {
+  background-color: #611883;
+}
+
+.Centre
+{
+  height:2.1%;
+  background-color:#96449c;
+  border: 10px solid #96449c;
+  border-style:inset hidden hidden hidden;
+  border-radius: 0px;
+  margin: 2% 5% 3% 5%;
+  padding: 0% 0% 60% 0%;
+  background-size: cover;
+  background-repeat: no-repeat, repeat;
+  overflow-x: hidden; 
+  overflow-y: hidden;
+}
+
+.Centre h1
+{
+	font-size:80px;
+	font:bold;
+	color:white;
+	text-align:center;
+}
+
+.Centre h2
+{
+	font-size:65px;
+	font:bold;
+	text-decoration: underline;
+	color:white;
+	text-align:center;
+	padding:0% 0% 0% 0%;
+}
+
+.Centre h3
+{
+	font-size:50px;
+	font:bold;
+	color:white;
+	text-decoration: underline;
+	text-align:center;
+	padding:0% 0% 0% 0%;
+}
+
+
+
+.Centre p
+{
+	font-size:34px;
+	color:white;
+	text-align:center;
+	padding: 0% 8% 0% 8%;
+}
+
+.Date p
+{
+	font-size:20px;
+	color:white;
+	text-align:Right;
+	text-align:Bottom;
+	margin: -2% 0% 0% 0%;
+}
+
+.Active
+{
+ background-color: #96449c;	
+}
+
+html, body{height:100%;}
+body
+{
+  height:1%;
+  background-image: linear-gradient(180deg, #791ca4, #22092d);
+  background-color: #22092d;
+  background-size: cover;
+  background-repeat: no-repeat, repeat;
+  overflow-x: hidden; 
+  overflow-y: scroll; 
+  
+}
+
+button
+{
+  background-color: #611883;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Jeu{
+	height:400px;
+	float:center;
+}
+
+.Texte {
+  float: left;
+}
+
+.Image
+{
+	float:right;
+	height:1px;
+}
+
+/* Pour Firefox */
+* {
+  scrollbar-color: #96449c #22092d;
+}
+
+/* Pour Chrome Edge Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #22092d;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #96449c;
+  border: 3px solid #96449c;
+}
